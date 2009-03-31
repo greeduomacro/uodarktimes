@@ -1,0 +1,1 @@
+Zacalo byt funkcni motd. Muzete kdykoliv napsat motd k otevreni okna se zpravou dne. Pomoci niz se vam budou hrnout informace o deni na shardu.
