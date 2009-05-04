@@ -1,0 +1,1249 @@
+# 19.6.2008 15:16:05
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 19.6.2008 18:40:43
+System.Net.Sockets.SocketException: Software v hostitelském počítači ukončil vytvořené připojení
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 25.6.2008 18:15:51
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 2.7.2008 18:43:39
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 4.7.2008 1:59:30
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 4.7.2008 12:24:32
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 6.7.2008 13:52:58
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 9.7.2008 21:46:57
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 9.7.2008 23:01:59
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 11.7.2008 12:17:28
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 12.7.2008 13:24:14
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 13.7.2008 17:43:26
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 16.7.2008 11:28:49
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 16.7.2008 18:44:29
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 17.7.2008 11:59:25
+System.ObjectDisposedException: Safe handle has been closed
+   at System.Net.UnsafeNclNativeMethods.OSSOCK.WSARecv(SafeCloseSocket socketHandle, WSABuffer& buffer, Int32 bufferCount, Int32& bytesTransferred, SocketFlags& socketFlags, IntPtr overlapped, IntPtr completionRoutine)
+   at System.Net.Sockets.Socket.DoBeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, OverlappedAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 17.7.2008 13:14:41
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 17.7.2008 22:59:25
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 27.7.2008 12:31:02
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 27.7.2008 18:17:15
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 29.7.2008 14:15:15
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 30.7.2008 19:43:43
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.EndAccept(Byte[]& buffer, Int32& bytesTransferred, IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndAccept(IAsyncResult asyncResult)
+   at Server.Network.Listener.OnAccept(IAsyncResult asyncResult)
+
+
+# 31.7.2008 16:28:51
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 1.8.2008 14:21:22
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 2.8.2008 11:00:10
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 2.8.2008 13:55:01
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 6.8.2008 13:56:19
+System.Net.Sockets.SocketException: Pokus o připojení selhal, protože připojená strana v časovém intervalu řádně neodpověděla, nebo vytvořené připojení selhalo, protože neodpověděl připojený hostitel
+   at System.Net.Sockets.Socket.EndAccept(Byte[]& buffer, Int32& bytesTransferred, IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndAccept(IAsyncResult asyncResult)
+   at Server.Network.Listener.OnAccept(IAsyncResult asyncResult)
+
+
+# 6.8.2008 13:56:41
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.EndAccept(Byte[]& buffer, Int32& bytesTransferred, IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndAccept(IAsyncResult asyncResult)
+   at Server.Network.Listener.OnAccept(IAsyncResult asyncResult)
+
+
+# 6.8.2008 13:57:02
+System.Net.Sockets.SocketException: Pokus o připojení selhal, protože připojená strana v časovém intervalu řádně neodpověděla, nebo vytvořené připojení selhalo, protože neodpověděl připojený hostitel
+   at System.Net.Sockets.Socket.EndAccept(Byte[]& buffer, Int32& bytesTransferred, IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndAccept(IAsyncResult asyncResult)
+   at Server.Network.Listener.OnAccept(IAsyncResult asyncResult)
+
+
+# 6.8.2008 13:57:34
+System.Net.Sockets.SocketException: Pokus o připojení selhal, protože připojená strana v časovém intervalu řádně neodpověděla, nebo vytvořené připojení selhalo, protože neodpověděl připojený hostitel
+   at System.Net.Sockets.Socket.EndAccept(Byte[]& buffer, Int32& bytesTransferred, IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndAccept(IAsyncResult asyncResult)
+   at Server.Network.Listener.OnAccept(IAsyncResult asyncResult)
+
+
+# 6.8.2008 13:57:55
+System.Net.Sockets.SocketException: Pokus o připojení selhal, protože připojená strana v časovém intervalu řádně neodpověděla, nebo vytvořené připojení selhalo, protože neodpověděl připojený hostitel
+   at System.Net.Sockets.Socket.EndAccept(Byte[]& buffer, Int32& bytesTransferred, IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndAccept(IAsyncResult asyncResult)
+   at Server.Network.Listener.OnAccept(IAsyncResult asyncResult)
+
+
+# 6.8.2008 13:58:17
+System.Net.Sockets.SocketException: Pokus o připojení selhal, protože připojená strana v časovém intervalu řádně neodpověděla, nebo vytvořené připojení selhalo, protože neodpověděl připojený hostitel
+   at System.Net.Sockets.Socket.EndAccept(Byte[]& buffer, Int32& bytesTransferred, IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndAccept(IAsyncResult asyncResult)
+   at Server.Network.Listener.OnAccept(IAsyncResult asyncResult)
+
+
+# 6.8.2008 13:59:25
+System.Net.Sockets.SocketException: Pokus o připojení selhal, protože připojená strana v časovém intervalu řádně neodpověděla, nebo vytvořené připojení selhalo, protože neodpověděl připojený hostitel
+   at System.Net.Sockets.Socket.EndAccept(Byte[]& buffer, Int32& bytesTransferred, IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndAccept(IAsyncResult asyncResult)
+   at Server.Network.Listener.OnAccept(IAsyncResult asyncResult)
+
+
+# 6.8.2008 14:14:11
+System.Net.Sockets.SocketException: Pokus o připojení selhal, protože připojená strana v časovém intervalu řádně neodpověděla, nebo vytvořené připojení selhalo, protože neodpověděl připojený hostitel
+   at System.Net.Sockets.Socket.EndAccept(Byte[]& buffer, Int32& bytesTransferred, IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndAccept(IAsyncResult asyncResult)
+   at Server.Network.Listener.OnAccept(IAsyncResult asyncResult)
+
+
+# 6.8.2008 14:14:32
+System.Net.Sockets.SocketException: Pokus o připojení selhal, protože připojená strana v časovém intervalu řádně neodpověděla, nebo vytvořené připojení selhalo, protože neodpověděl připojený hostitel
+   at System.Net.Sockets.Socket.EndAccept(Byte[]& buffer, Int32& bytesTransferred, IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndAccept(IAsyncResult asyncResult)
+   at Server.Network.Listener.OnAccept(IAsyncResult asyncResult)
+
+
+# 6.8.2008 14:14:48
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.EndAccept(Byte[]& buffer, Int32& bytesTransferred, IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndAccept(IAsyncResult asyncResult)
+   at Server.Network.Listener.OnAccept(IAsyncResult asyncResult)
+
+
+# 6.8.2008 14:14:53
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.EndAccept(Byte[]& buffer, Int32& bytesTransferred, IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndAccept(IAsyncResult asyncResult)
+   at Server.Network.Listener.OnAccept(IAsyncResult asyncResult)
+
+
+# 6.8.2008 14:29:51
+System.Net.Sockets.SocketException: Pokus o připojení selhal, protože připojená strana v časovém intervalu řádně neodpověděla, nebo vytvořené připojení selhalo, protože neodpověděl připojený hostitel
+   at System.Net.Sockets.Socket.EndAccept(Byte[]& buffer, Int32& bytesTransferred, IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndAccept(IAsyncResult asyncResult)
+   at Server.Network.Listener.OnAccept(IAsyncResult asyncResult)
+
+
+# 6.8.2008 21:44:15
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 7.8.2008 2:13:40
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 8.8.2008 13:06:38
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 10.8.2008 17:46:22
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.EndAccept(Byte[]& buffer, Int32& bytesTransferred, IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndAccept(IAsyncResult asyncResult)
+   at Server.Network.Listener.OnAccept(IAsyncResult asyncResult)
+
+
+# 13.8.2008 13:43:45
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 14.8.2008 14:14:03
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 18.8.2008 10:28:33
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 18.8.2008 19:28:54
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 19.8.2008 20:14:41
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 19.8.2008 21:21:01
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 21.8.2008 12:21:42
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 21.8.2008 14:30:13
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 22.8.2008 11:39:47
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 22.8.2008 12:56:12
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 22.8.2008 13:53:45
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 23.8.2008 11:38:23
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 25.8.2008 14:18:10
+System.Net.Sockets.SocketException: Operace na soketu nemohla být provedena, protože systém neměl dostatečný prostor ve vyrovnávací paměti nebo protože byla plná fronta
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 25.8.2008 18:39:19
+System.Net.Sockets.SocketException: Operace na soketu nemohla být provedena, protože systém neměl dostatečný prostor ve vyrovnávací paměti nebo protože byla plná fronta
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 25.8.2008 18:39:20
+System.Net.Sockets.SocketException: Operace na soketu nemohla být provedena, protože systém neměl dostatečný prostor ve vyrovnávací paměti nebo protože byla plná fronta
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 25.8.2008 18:39:24
+System.Net.Sockets.SocketException: Operace na soketu nemohla být provedena, protože systém neměl dostatečný prostor ve vyrovnávací paměti nebo protože byla plná fronta
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 25.8.2008 18:42:16
+System.Net.Sockets.SocketException: Operace na soketu nemohla být provedena, protože systém neměl dostatečný prostor ve vyrovnávací paměti nebo protože byla plná fronta
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 25.8.2008 18:44:13
+System.Net.Sockets.SocketException: Operace na soketu nemohla být provedena, protože systém neměl dostatečný prostor ve vyrovnávací paměti nebo protože byla plná fronta
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 25.8.2008 23:50:13
+System.Net.Sockets.SocketException: Operace na soketu nemohla být provedena, protože systém neměl dostatečný prostor ve vyrovnávací paměti nebo protože byla plná fronta
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 26.8.2008 13:28:57
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 28.8.2008 13:53:51
+System.Net.Sockets.SocketException: Operace na soketu nemohla být provedena, protože systém neměl dostatečný prostor ve vyrovnávací paměti nebo protože byla plná fronta
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 28.8.2008 13:53:52
+System.Net.Sockets.SocketException: Operace na soketu nemohla být provedena, protože systém neměl dostatečný prostor ve vyrovnávací paměti nebo protože byla plná fronta
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 28.8.2008 13:53:53
+System.Net.Sockets.SocketException: Operace na soketu nemohla být provedena, protože systém neměl dostatečný prostor ve vyrovnávací paměti nebo protože byla plná fronta
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 28.8.2008 13:53:53
+System.Net.Sockets.SocketException: Operace na soketu nemohla být provedena, protože systém neměl dostatečný prostor ve vyrovnávací paměti nebo protože byla plná fronta
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 28.8.2008 13:55:42
+System.Net.Sockets.SocketException: Operace na soketu nemohla být provedena, protože systém neměl dostatečný prostor ve vyrovnávací paměti nebo protože byla plná fronta
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 28.8.2008 13:55:56
+System.Net.Sockets.SocketException: Operace na soketu nemohla být provedena, protože systém neměl dostatečný prostor ve vyrovnávací paměti nebo protože byla plná fronta
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 28.8.2008 13:56:14
+System.Net.Sockets.SocketException: Operace na soketu nemohla být provedena, protože systém neměl dostatečný prostor ve vyrovnávací paměti nebo protože byla plná fronta
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 28.8.2008 14:56:35
+System.Net.Sockets.SocketException: Operace na soketu nemohla být provedena, protože systém neměl dostatečný prostor ve vyrovnávací paměti nebo protože byla plná fronta
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 28.8.2008 14:56:35
+System.Net.Sockets.SocketException: Operace na soketu nemohla být provedena, protože systém neměl dostatečný prostor ve vyrovnávací paměti nebo protože byla plná fronta
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 28.8.2008 14:56:35
+System.Net.Sockets.SocketException: Operace na soketu nemohla být provedena, protože systém neměl dostatečný prostor ve vyrovnávací paměti nebo protože byla plná fronta
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 29.8.2008 16:32:16
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 29.8.2008 23:06:08
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 1.9.2008 1:01:01
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 1.9.2008 15:01:06
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 1.9.2008 18:15:58
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 1.9.2008 22:44:42
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 1.9.2008 23:29:58
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 1.9.2008 23:44:49
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 2.9.2008 0:44:43
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 3.9.2008 21:29:19
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 3.9.2008 23:59:51
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 4.9.2008 11:30:20
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 4.9.2008 12:00:27
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 4.9.2008 12:15:08
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 10.9.2008 21:30:17
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 10.9.2008 22:31:05
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 10.9.2008 23:31:09
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 11.9.2008 14:16:01
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 11.9.2008 15:00:33
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 11.9.2008 15:45:28
+System.ObjectDisposedException: Safe handle has been closed
+   at System.Net.UnsafeNclNativeMethods.OSSOCK.WSARecv(SafeCloseSocket socketHandle, WSABuffer& buffer, Int32 bufferCount, Int32& bytesTransferred, SocketFlags& socketFlags, IntPtr overlapped, IntPtr completionRoutine)
+   at System.Net.Sockets.Socket.DoBeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, OverlappedAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 11.9.2008 16:00:21
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 11.9.2008 16:30:10
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 11.9.2008 17:16:06
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 11.9.2008 18:52:03
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 11.9.2008 19:44:54
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 11.9.2008 20:00:06
+System.ObjectDisposedException: Safe handle has been closed
+   at System.Net.UnsafeNclNativeMethods.OSSOCK.WSARecv(SafeCloseSocket socketHandle, WSABuffer& buffer, Int32 bufferCount, Int32& bytesTransferred, SocketFlags& socketFlags, IntPtr overlapped, IntPtr completionRoutine)
+   at System.Net.Sockets.Socket.DoBeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, OverlappedAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 12.9.2008 18:15:37
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 13.9.2008 14:15:08
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 13.9.2008 18:15:26
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 14.9.2008 0:15:35
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 14.9.2008 15:30:41
+System.ObjectDisposedException: Safe handle has been closed
+   at System.Net.UnsafeNclNativeMethods.OSSOCK.WSARecv(SafeCloseSocket socketHandle, WSABuffer& buffer, Int32 bufferCount, Int32& bytesTransferred, SocketFlags& socketFlags, IntPtr overlapped, IntPtr completionRoutine)
+   at System.Net.Sockets.Socket.DoBeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, OverlappedAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 14.9.2008 19:39:06
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 15.9.2008 23:15:01
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 16.9.2008 3:29:39
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 16.9.2008 6:59:45
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 16.9.2008 9:44:53
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 16.9.2008 12:45:58
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 16.9.2008 13:00:45
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 16.9.2008 21:05:50
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 17.9.2008 3:29:43
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 17.9.2008 16:27:00
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 17.9.2008 17:01:40
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 17.9.2008 19:30:40
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 17.9.2008 22:30:49
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 18.9.2008 2:44:41
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 18.9.2008 3:02:00
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 18.9.2008 16:00:36
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 18.9.2008 16:14:50
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 18.9.2008 19:19:44
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.Flush()
+
+
+# 19.9.2008 13:17:51
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 21.9.2008 18:45:08
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 21.9.2008 22:00:01
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 22.9.2008 19:47:35
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 22.9.2008 21:47:34
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 23.9.2008 13:18:07
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 23.9.2008 13:31:54
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 23.9.2008 20:30:33
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 23.9.2008 23:46:41
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 24.9.2008 0:00:35
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 24.9.2008 18:29:35
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 24.9.2008 20:30:00
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 24.9.2008 20:44:22
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 25.9.2008 14:44:58
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 26.9.2008 13:29:45
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 26.9.2008 13:46:02
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 26.9.2008 22:16:04
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 27.9.2008 12:29:29
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 27.9.2008 12:44:28
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 27.9.2008 13:59:38
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 28.9.2008 20:15:22
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 7.10.2008 21:00:46
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at Server.Network.NetState.InternalBeginReceive()
+   at Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 11.10.2008 19:15:23
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 11.10.2008 19:31:14
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   v System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 11.10.2008 20:00:18
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 11.10.2008 22:45:02
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 11.10.2008 23:15:10
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 26.10.2008 14:16:02
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 27.10.2008 21:22:06
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   v System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.Flush()
+
+
+# 27.10.2008 23:01:30
+System.ObjectDisposedException: Bezpečný popisovač byl zavřen.
+   v System.Net.UnsafeNclNativeMethods.OSSOCK.WSARecv(SafeCloseSocket socketHandle, WSABuffer& buffer, Int32 bufferCount, Int32& bytesTransferred, SocketFlags& socketFlags, IntPtr overlapped, IntPtr completionRoutine)
+   v System.Net.Sockets.Socket.DoBeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, OverlappedAsyncResult asyncResult)
+   v System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   v System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 28.10.2008 23:01:45
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 28.10.2008 23:17:14
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 30.10.2008 1:46:53
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 31.10.2008 16:03:54
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   v System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.Flush()
+
+
+# 31.10.2008 21:56:25
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   v System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.Flush()
+
+
+# 4.11.2008 23:30:29
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   v System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.Flush()
+
+
+# 5.11.2008 17:46:35
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 6.11.2008 13:01:12
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 6.11.2008 22:46:27
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 7.11.2008 17:32:28
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   v System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 9.11.2008 2:47:45
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 9.11.2008 7:02:59
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 9.11.2008 7:18:58
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 9.11.2008 10:33:50
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   v System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 9.11.2008 13:17:59
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 9.11.2008 15:03:27
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 9.11.2008 17:02:47
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 9.11.2008 17:48:08
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 9.11.2008 19:48:03
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   v System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 18.11.2008 14:35:37
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 18.11.2008 15:50:40
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 18.11.2008 17:22:36
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 19.11.2008 18:19:23
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   v System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 21.11.2008 15:16:47
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   v System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.Flush()
+
+
+# 23.11.2008 16:29:44
+System.Net.Sockets.SocketException: Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+   v System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.Flush()
+
+
+# 30.11.2008 7:19:36
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   v System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 18.12.2008 23:16:04
+System.Net.Sockets.SocketException: Software v hostitelském počítači ukončil vytvořené připojení
+   v System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.Resume()
+
+
+# 28.12.2008 1:53:33
+System.Net.Sockets.SocketException: Pokus o připojení selhal, protože připojená strana v časovém intervalu řádně neodpověděla, nebo vytvořené připojení selhalo, protože neodpověděl připojený hostitel
+   v System.Net.Sockets.Socket.EndAccept(Byte[]& buffer, Int32& bytesTransferred, IAsyncResult asyncResult)
+   v System.Net.Sockets.Socket.EndAccept(IAsyncResult asyncResult)
+   v Server.Network.Listener.OnAccept(IAsyncResult asyncResult)
+
+
+# 1.1.2009 0:59:23
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 2.1.2009 13:09:34
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   v System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.Send(Packet p)
+
+
+# 2.1.2009 13:40:08
+System.ObjectDisposedException: K uvolněnému objektu nelze přistupovat.
+Název objektu: System.Net.Sockets.Socket
+   v System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   v System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.Flush()
+
+
+# 3.1.2009 6:44:25
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 3.1.2009 20:59:14
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   v System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 12.1.2009 7:04:36
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 12.1.2009 8:31:53
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 12.1.2009 9:01:54
+System.ObjectDisposedException: K uvolněnému objektu nelze přistupovat.
+Název objektu: System.Net.Sockets.Socket
+   v System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   v System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 12.1.2009 9:16:57
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 12.1.2009 12:31:55
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 13.1.2009 18:45:57
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 18.1.2009 0:59:57
+System.Net.Sockets.SocketException: Požadavek odeslání nebo příjmu dat nebyl povolen, protože soket již byl v tomto směru vypnut předchozím vypínacím voláním
+   v System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 18.1.2009 2:15:02
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 18.1.2009 2:30:02
+System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v Server.Network.NetState.InternalBeginReceive()
+   v Server.Network.NetState.OnReceive(IAsyncResult asyncResult)
+
+
+# 22.1.2009 1:08:15
+System.Net.Sockets.SocketException: Software v hostitelském počítači ukončil vytvořené připojení
+   v System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   v Server.Network.NetState.Flush()
+
+
